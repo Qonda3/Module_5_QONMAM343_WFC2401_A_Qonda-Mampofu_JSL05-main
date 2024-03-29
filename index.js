@@ -12,6 +12,11 @@ const songs = [
     { title: "I'm Not in Love", artist: "10cc", genre: "Pop" },
     { title: "Fooled Around and Fell in Love", artist: "Elvin Bishop", genre: "Rock" },
     // Feel free to add even more songs
+    { title: "Rocket Man", artist: "Elton John", genre: "Pop" }, // Added song
+    { title: "Sweet Child o' Mine", artist: "Guns N' Roses", genre: "Rock" }, // Added song
+    { title: "Bohemian Rhapsody", artist: "Queen", genre: "Rock" }, // Added song
+    { title: "Billie Jean", artist: "Michael Jackson", genre: "Pop" }, // Added song
+    { title: "Staying Alive", artist: "Bee Gees", genre: "Disco" } // Added song
 ];
 
 
@@ -20,6 +25,9 @@ const guardians = {
     "Star-Lord": "Rock",
     "Gamora": "Pop",
     // Add preferences for Drax, Rocket, and Groot
+    "Drax": "Rock", // Added preference for Drax
+    "Rocket": "Pop", // Added preference for Rocket
+    "Groot": "Rock" // Added preference for Groot
 };
 
 // Function to generate playlist based on preferred genre
